@@ -1,4 +1,4 @@
-package com.geekbrains;
+package com.geekbrains.example;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
@@ -16,7 +16,7 @@ public class WebInitializer
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[]{AppConfig.class};
+        return new Class[]{AppConfigExample.class};
     }
 
     @Override

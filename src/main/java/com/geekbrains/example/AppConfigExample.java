@@ -1,4 +1,4 @@
-package com.geekbrains;
+package com.geekbrains.example;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 @EnableWebMvc
 @Configuration
 @ComponentScan("com.geekbrains")
-public class AppConfig
+public class AppConfigExample
         implements WebMvcConfigurer {
 
     @Override

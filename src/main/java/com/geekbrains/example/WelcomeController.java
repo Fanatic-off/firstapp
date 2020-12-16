@@ -1,4 +1,4 @@
-package com.geekbrains;
+package com.geekbrains.example;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
