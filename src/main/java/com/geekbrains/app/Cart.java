@@ -5,9 +5,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-
-@Component
-@Scope (scopeName = "prototype") //помечает красным Scope
+//@Component
+//@Scope (scopeName = "prototype") //помечает красным Scope
 public class Cart {
     private List<Product> productsCart;
 

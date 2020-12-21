@@ -9,6 +9,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan("com.geekbrains.app")
 public class AppConfig {
 
-    @Bean //помечает красным Scope
+//    @Bean //помечает красным Scope
 
 }
